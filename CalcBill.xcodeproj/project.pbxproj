@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6EB5FFE61B1B7871005C981F /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB5FFE51B1B7871005C981F /* View2.swift */; };
 		6EEABFD31B1A34F900852AC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEABFD21B1A34F900852AC8 /* AppDelegate.swift */; };
 		6EEABFD51B1A34F900852AC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEABFD41B1A34F900852AC8 /* ViewController.swift */; };
 		6EEABFD81B1A34F900852AC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EEABFD61B1A34F900852AC8 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6EB5FFE51B1B7871005C981F /* View2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
 		6EEABFCD1B1A34F900852AC8 /* CalcBill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalcBill.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EEABFD11B1A34F900852AC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EEABFD21B1A34F900852AC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				6EEABFD21B1A34F900852AC8 /* AppDelegate.swift */,
 				6EEABFD41B1A34F900852AC8 /* ViewController.swift */,
+				6EB5FFE51B1B7871005C981F /* View2.swift */,
 				6EEABFD61B1A34F900852AC8 /* Main.storyboard */,
 				6EEABFD91B1A34F900852AC8 /* Images.xcassets */,
 				6EEABFDB1B1A34F900852AC8 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EEABFD51B1A34F900852AC8 /* ViewController.swift in Sources */,
+				6EB5FFE61B1B7871005C981F /* View2.swift in Sources */,
 				6EEABFD31B1A34F900852AC8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +413,7 @@
 				6EEABFEE1B1A34F900852AC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EEABFEF1B1A34F900852AC8 /* Build configuration list for PBXNativeTarget "CalcBillTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				6EEABFF11B1A34F900852AC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
