@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  PhotoPicker
+//  CalcBill
 //
 //  Created by John Cody on 30/05/15.
 //  Copyright (c) 2015 John Cody. All rights reserved.
