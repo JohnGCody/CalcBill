@@ -13,14 +13,22 @@ import Foundation
 
 class View2: UIViewController {
     
-    @IBOutlet weak var receiptImageView: UIImageView!
+    @IBOutlet var receiptView: UIImageView!
     var receiptImage: UIImage!
 
+    @IBOutlet var labelText: UILabel!
+    var textForLabel : String = "No Text Set"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        receiptImageView.image = receiptImage
-        
+
+        if (receiptImage == nil){
+            labelText.text = textForLabel
+        }else{
+            receiptView.image = receiptImage
+            labelText.text = "Image Not NULL"
+        }
+
     }
     
     override func viewWillAppear(animated: Bool) {

@@ -80,6 +80,16 @@ class ViewController: UIViewController {
         captureSession!.startRunning()
     }
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        var vc = segue.destinationViewController as! View2
+        vc.textForLabel = "Image NULL"
+        vc.receiptImage = self.capturedImage.image
+        
+        
+        
+    }
+    
     
 }
 
